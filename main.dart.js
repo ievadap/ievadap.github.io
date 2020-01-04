@@ -13887,7 +13887,7 @@ Yk:function(a,b,c,d,e,f){return new A.co(f,b,e,c,d,a,[f,c,b,e,d,a])},
 a3M:function(a){switch(a){case C.ix:return"https://i.ibb.co/hg7S357/logo-theme-fantasy-1.png"
 case C.iy:return"https://i.ibb.co/54dWzng/ck-logo.png"
 default:throw H.c("Source case not covered")}},
-a3N:function(a,b){switch(a){case C.ix:return"http://www.forumcinemas.lt/Event/"+b+"/"
+a3N:function(a,b){switch(a){case C.ix:return"https://www.forumcinemas.lt/Event/"+b+"/"
 case C.iy:return"https://cinamonkino.com/mega/seat-plan/"+b+"/lt"
 default:throw H.c("Source case not covered")}},
 co:function co(a,b,c,d,e,f,g){var _=this
@@ -42037,7 +42037,7 @@ Ct:function(a){var u=0,t=P.a2([P.q,A.co]),s,r=this,q,p,o
 var $async$lt=P.Y(function(b,c){if(b===1)return P.a_(c,t)
 while(true)switch(u){case 0:q=J.a1x(C.b.gT(a.h(0).split(" ")),"-")
 u=3
-return P.a9(r.a.k8("GET","http://m.forumcinemas.lt/xml/Schedule/?format=json&area=1012&dt="+new H.ce(q,[H.l(q,0)]).b3(0,"."),null),$async$lt)
+return P.a9(r.a.k8("GET","https://m.forumcinemas.lt/xml/Schedule/?format=json&area=1012&dt="+new H.ce(q,[H.l(q,0)]).b3(0,"."),null),$async$lt)
 case 3:p=c
 o=D.a4g(C.aP.cv(0,C.c.or(B.Ww(U.W8(p.e).c.a.i(0,"charset")).cv(0,p.x),P.bi('"([A-Z])([^"]*)"\\s*:',!0),new A.Fq()))).a
 o.toString
